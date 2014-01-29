@@ -1,0 +1,117 @@
+<!--#if expr="$page!='index'" -->
+
+<!--#if expr="$page='production_group_product'" -->
+<div class="b-top-heading" style="background-color: #CC99FF;">
+<!--#else -->
+<div class="b-top-heading">
+<!--#endif -->
+	<div class="i-page-content">
+		<!--#if expr="$page='about'" -->
+		<div class="b-grid">
+			<menu class="b-top-submenu b-grid__column__size_2">
+				<li class="b-top-submenu__item">
+					<a href="/about/news/" class="b-top-submenu__link">Пресс-релизы</a>
+				</li>
+				<li class="b-top-submenu__item">
+					<a href="" class="b-top-submenu__link">Вакансии</a>
+				</li>
+			</menu>
+			<div class="i-clearfix"></div>
+		</div>
+		<h1 class="b-top-heading__h1">Грида</h1>
+		
+		<!--#elif expr="$page='about_news'" -->
+		<div class="b-grid">
+			<menu class="b-top-submenu b-grid__column__size_2">
+				<li class="b-top-submenu__item">
+					<span class="b-top-submenu__link i-active">Пресс-релизы</span>
+				</li>
+				<li class="b-top-submenu__item">
+					<a href="" class="b-top-submenu__link">Вакансии</a>
+				</li>
+			</menu>
+			<div class="i-clearfix"></div>
+		</div>
+		<h1 class="b-top-heading__h1">Пресс-релизы</h1>
+		
+		<!--#elif expr="$page='about_news_item'" -->
+		<div class="b-grid">
+			<menu class="b-top-submenu b-grid__column__size_2">
+				<li class="b-top-submenu__item">
+					<a href="/about/news/" class="b-top-submenu__link i-inside">Пресс-релизы</a>
+				</li>
+				<li class="b-top-submenu__item">
+					<a href="" class="b-top-submenu__link">Вакансии</a>
+				</li>
+			</menu>
+			<div class="i-clearfix"></div>
+		</div>
+		<div class="b-top-heading__h1">Пресс-релизы</div>
+		
+		<!--#elif expr="$page='production'" -->
+		<div class="b-grid">
+			<menu class="b-top-submenu"></menu>
+			<div class="i-clearfix"></div>
+		</div>
+		<h1 class="b-top-heading__h1">Продукция</h1>
+		
+		<!--#elif expr="$page='production_group'" -->
+		<div class="b-grid">
+			<menu class="b-top-submenu"></menu>
+			<div class="i-clearfix"></div>
+		</div>
+		<h1 class="b-top-heading__h1">Наружная гидроизоляция</h1>
+		
+		<!--#elif expr="$page='production_group_product'" -->
+		<menu class="b-production-submenu b-slider">
+			<li class="b-production-submenu__item">
+				<a href="" class="b-production-submenu__link">Наружная гидроизоляция</a>
+			</li>
+			<li class="b-production-submenu__item">
+				<a href="" class="b-production-submenu__link">Мастика</a>
+			</li>
+			<li class="b-production-submenu__item">
+				<a href="" class="b-production-submenu__link">Гидроизоляция подвала</a>
+			</li>
+			<li class="b-production-submenu__item">
+				<a href="" class="b-production-submenu__link">Праймеры</a>
+			</li>
+			<li class="b-production-submenu__item">
+				<a href="" class="b-production-submenu__link">Праймеры</a>
+			</li>
+		</menu>
+		<div class="i-clearfix"></div>
+		<h1 class="b-top-heading__h1">Грида Flächendicht (Флэхендихт)</h1>
+		
+		<!--#elif expr="$page='delivery'" -->
+		<div class="b-grid">
+			<menu class="b-top-submenu"></menu>
+			<div class="i-clearfix"></div>
+		</div>
+		<h1 class="b-top-heading__h1">Доставка</h1>
+		
+		<!--#elif expr="$page='contacts'" -->
+		<div class="b-grid">
+			<menu class="b-top-submenu"></menu>
+			<div class="i-clearfix"></div>
+		</div>
+		<h1 class="b-top-heading__h1">Контактная информация</h1>
+		
+		<!--#elif expr="$page='dealers'" -->
+		<div class="b-grid">
+			<menu class="b-top-submenu"></menu>
+			<div class="i-clearfix"></div>
+		</div>
+		<h1 class="b-top-heading__h1">Дилеры</h1>
+		
+		<!--#elif expr="$page='error'" -->
+		<div class="b-grid">
+			<menu class="b-top-submenu"></menu>
+			<div class="i-clearfix"></div>
+		</div>
+		<h1 class="b-top-heading__h1">Ошибка</h1>
+		
+		<!--#endif -->
+	</div>
+</div>
+<!--#endif -->

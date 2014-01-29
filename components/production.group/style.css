@@ -1,0 +1,73 @@
+.i-production-outside .b-top-heading {
+	background: #0662c9;
+}
+.i-production-inside .b-top-heading {
+	background: #06a5ef;
+}
+.i-production-roof .b-top-heading {
+	background: #b357bb;
+}
+.i-production-corrosion .b-top-heading {
+	background: #cbcbcb;
+}
+.i-production-lacquer .b-top-heading {
+	background: #ec3d00;
+}
+.i-production-road .b-top-heading {
+	background: #fbc300;
+}
+
+.b-production-group {}
+.b-production-group-intro {
+	margin-bottom: 35px;
+}
+
+.b-production-group-block:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.b-production-group-block {
+	display: inline-block;
+	margin: 0 -20px;
+	height: 200px;
+	overflow: hidden;
+}
+.b-production-group-block {
+	display: block;
+}
+
+.b-production-group-block a,
+.b-production-group-block a:hover {
+	color: #fff;
+}
+
+.b-production-group-block__item {
+	float: left;
+}
+.b-production-group-block__item__content {
+	padding: 20px;
+}
+.b-production-group-block__item.i-size_2x1 {
+	width: 420px;
+	height: 200px;
+}
+.b-production-group-block__item.i-size_1x1 {
+	width: 210px;
+	height: 200px;
+}
+
+.b-production-group-block__item__pointer {
+	position: absolute;
+	top: 185px;
+	right: -15px;
+	z-index: 10;
+}
+.b-pointer-top-left {
+	width: 0;
+    height: 0;
+    border-top: 15px solid #272320; 
+    border-right: 15px solid transparent;
+}

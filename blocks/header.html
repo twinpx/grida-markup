@@ -1,0 +1,62 @@
+<div id="b-page-wrapper">
+	<header class="b-header">
+		<div class="i-page-content">
+			<!--#if expr="$page='index'" -->
+			<div class="b-logo">
+				<img src="/images/grida-logo.png" width="44" height="44" alt="Грида" class="b-logo__image" />
+			</div>
+			<!--#else -->
+			<a href="/" class="b-logo">
+				<img src="/images/grida-logo.png" width="44" height="44" alt="Грида" class="b-logo__image" />
+			</a>
+			<!--#endif -->
+			
+			<menu class="b-top-menu">
+				<li class="b-top-menu__item">
+					<!--#if expr="$page='about'" -->
+					<span class="b-top-menu__link i-active">Грида</span>
+					<!--#elif expr="$page='about_news'" -->
+					<a href="/about/" class="b-top-menu__link i-inside">Грида</a>
+					<!--#else -->
+					<a href="/about/" class="b-top-menu__link">Грида</a>
+					<!--#endif -->
+				</li>
+				<li class="b-top-menu__item">
+					<!--#if expr="$page='production'" -->
+					<span class="b-top-menu__link i-active">Продукция</span>
+					<!--#elif expr="$page='production_group'" -->
+					<a href="/production/" class="b-top-menu__link i-inside">Продукция</a>
+					<!--#else -->
+					<a href="/production/" class="b-top-menu__link">Продукция</a>
+					<!--#endif -->
+					
+				</li>
+				<li class="b-top-menu__item">
+					<!--#if expr="$page='dealers'" -->
+					<span class="b-top-menu__link i-active">Дилеры</span>
+					<!--#elif expr="$page='dealers_dealer'" -->
+					<a href="/dealers/" class="b-top-menu__link i-inside">Дилеры</a>
+					<!--#else -->
+					<a href="/dealers/" class="b-top-menu__link">Дилеры</a>
+					<!--#endif -->
+				</li>
+				<li class="b-top-menu__item">
+					<!--#if expr="$page='delivery'" -->
+					<span class="b-top-menu__link i-active">Доставка</span>
+					<!--#else -->
+					<a href="/delivery/" class="b-top-menu__link">Доставка</a>
+					<!--#endif -->
+				</li>
+				<li class="b-top-menu__item">
+					<!--#if expr="$page='contacts'" -->
+					<span class="b-top-menu__link i-active">Контакты</span>
+					<!--#else -->
+					<a href="/contacts/" class="b-top-menu__link">Контакты</a>
+					<!--#endif -->
+				</li>
+			</menu>
+			
+			<div class="i-clearfix"></div>
+		</div>
+		<!--#include virtual="/blocks/top-heading.html"-->
+	</header>
